@@ -5,9 +5,9 @@ from six.moves import input
 print('''
 	==================================
 	|      [Gmail] ==> 3             |
-	|--------------------------------|
-	| snapchat: flaah999             |
-	| CoDeD By TA Hacker (@0xfff0800)|
+	|-------------------------------|
+	| snapchat: hhhhhhhh             |
+	| CoDeD By TA hhhhhhhh (@hhhhhhhh)|
 	|--------------------------------|
 
 	''')

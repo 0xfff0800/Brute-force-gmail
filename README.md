@@ -1,5 +1,5 @@
 # Brute-force-gmail
-Brute force gmail hack
+Brute force gmail hack 2022
 
 ## Author: https://www.snapchat.com/add/flaah999
 
@@ -22,10 +22,9 @@ $ git clone https://github.com/0xfff0800/Brute-force-gmail.git
 ```
 # Command
 ```bash
-python3 gmail-3.py 
+python3 gmail-4.py 
 
 ```
 
-## Coded By
-falah (0xfff0800)
+
 

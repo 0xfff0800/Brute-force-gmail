@@ -61,7 +61,7 @@ do = input('''
 		==> ''')
 
 if do == '1':
-    user = input("List Of Usernames => ")
+    user = input("List Of Emali => ")
     passfile = input("List Of Passwords => ")
 
     instance.get_acc_list(user)

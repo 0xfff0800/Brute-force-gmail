@@ -1,5 +1,12 @@
 # Brute-force-gmail
-Brute force gmail hack 2022
+Brute force gmail hack 2022 ----> Won't work (obsolete)
+
+
+### Access to apps has been disabled less secure than Google, which means the script will not run again
+
+### https://support.google.com/accounts/answer/6010255?hl=en
+
+
 
 ## Author: https://www.snapchat.com/add/flaah999
 
